@@ -1,7 +1,7 @@
 {
   "name": "@zardoy/package-with-types",
   "description": "For testing purposes only. Do not use it.",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "main": "index.js",
   "author": "Vitaly Turovsky <vital2580@icloud.com>",
   "repository": "zardoy/package-with-types.git",

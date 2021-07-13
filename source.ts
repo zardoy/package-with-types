@@ -51,7 +51,7 @@ export const sayHi: MagicFunction = () => {}
 // 2. libs (especially lib.d.ts)
 // 3. peerDeps?
 
-const readFile = async (filename: string, { normalize: enableSuperCoolOption = true }: { 
+export const readFile = async (filename: string, { normalize: enableSuperCoolOption = true }: { 
     /** @default true */
     normalize: boolean,
     // do not resolve

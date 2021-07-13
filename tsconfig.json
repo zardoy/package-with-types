@@ -1,0 +1,16 @@
+{
+    "extends": "@zardoy/tsconfig/node",
+    "compilerOptions": {
+        "lib": [
+            "ESNext",
+            "DOM"
+        ],
+        "declaration": true,
+        "noEmit": false,
+        "strictNullChecks": false,
+        "outDir": "."
+    },
+    "files": [
+        "source.ts"
+    ]
+}

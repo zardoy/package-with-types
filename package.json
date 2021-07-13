@@ -1,0 +1,26 @@
+{
+  "name": "@zardoy/package-with-types",
+  "description": "For testing purposes only. Do not use it.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "Vitaly Turovsky <vital2580@icloud.com>",
+  "repository": "zardoy/package-with-types.git",
+  "license": "MIT",
+  "types": "source.d.ts",
+  "files": [
+    "source.d.ts"
+  ],
+  "scripts": {
+    "prepublishOnly": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^16.3.1",
+    "@types/react": "^17.0.14",
+    "@zardoy/tsconfig": "^1.1.1",
+    "got": "^11.8.2",
+    "typescript": "^4.3.5"
+  },
+  "peerDependencies": {
+    "got": "^11.8.2"
+  }
+}
